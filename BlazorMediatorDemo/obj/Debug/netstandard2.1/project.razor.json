@@ -223,39 +223,6 @@
         }
       },
       {
-        "HashCode": 458526390,
-        "Kind": "Components.Component",
-        "Name": "BlazorMediatorDemo.Pages.Counter",
-        "AssemblyName": "BlazorMediatorDemo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMediatorDemo.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 2104563828,
-        "Kind": "Components.Component",
-        "Name": "BlazorMediatorDemo.Pages.Counter",
-        "AssemblyName": "BlazorMediatorDemo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorMediatorDemo.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorMediatorDemo.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1959437388,
         "Kind": "Components.Component",
         "Name": "BlazorMediatorDemo.Pages.Index",
@@ -318,6 +285,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorMediatorDemo.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 458526390,
+        "Kind": "Components.Component",
+        "Name": "BlazorMediatorDemo.Pages.Counter",
+        "AssemblyName": "BlazorMediatorDemo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMediatorDemo.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 2104563828,
+        "Kind": "Components.Component",
+        "Name": "BlazorMediatorDemo.Pages.Counter",
+        "AssemblyName": "BlazorMediatorDemo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorMediatorDemo.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorMediatorDemo.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
