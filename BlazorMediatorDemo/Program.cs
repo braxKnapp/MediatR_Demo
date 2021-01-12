@@ -21,6 +21,7 @@ namespace BlazorMediatorDemo
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddScoped<ICacheManager, CacheManager>();
+            //This is how you add the MediatR service to the program
             builder.Services.AddMediatR(typeof(Program));
 
             await builder.Build().RunAsync();

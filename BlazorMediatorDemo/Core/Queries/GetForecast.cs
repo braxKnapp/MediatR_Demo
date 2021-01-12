@@ -9,6 +9,9 @@ using MediatR;
 
 namespace BlazorMediatorDemo.Core.Queries
 {
+    /// <summary>
+    /// Uses IRequest from MediatR
+    /// </summary>
     public class GetForecast : IRequest<WeatherForecast[]>
     {
         public int PageSize { get; set; }
@@ -19,6 +22,9 @@ namespace BlazorMediatorDemo.Core.Queries
         }
     }
 
+    /// <summary>
+    /// Handler for the GetForecast Request. Uses IRequestHandler from MediatR
+    /// </summary>
     public class GetForecastHandler : IRequestHandler<GetForecast, WeatherForecast[]>
     {
 
@@ -28,7 +34,13 @@ namespace BlazorMediatorDemo.Core.Queries
         {
             _httpClient = httpClient;
         }
-
+        
+        /// <summary>
+        /// IRequestHandler Implemented Handle Method
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns>WeatherForecast array of designated size</returns>
         public async Task<WeatherForecast[]> Handle(GetForecast request, CancellationToken cancellationToken)
         {
             var response = await _httpClient.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");

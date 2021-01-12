@@ -5,8 +5,14 @@ using MediatR;
 
 namespace BlazorMediatorDemo.Core.Queries
 {
-    public class GetClickCounter : IRequest<int>{}
+    /// <summary>
+    /// Uses IRequest from MediatR
+    /// </summary>
+    public class GetClickCounter : IRequest<int> { }
 
+    /// <summary>
+    /// Handler for the GetClickCounter Request. Uses IRequestHandler from MediatR
+    /// </summary>
     public class GetClickCounterHandler : IRequestHandler<GetClickCounter, int>
     {
 
@@ -17,6 +23,12 @@ namespace BlazorMediatorDemo.Core.Queries
             this.cacheManager = cacheManager;
         }
 
+        /// <summary>
+        /// IRequestHandler Implemented Handle Method
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns>Count of clicks stored in CacheManager</returns>
         public Task<int> Handle(GetClickCounter request, CancellationToken cancellationToken)
         {
             return Task.FromResult(cacheManager.GetClickCount());
