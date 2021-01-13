@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2d7xcMpEqiorchnZe39C1CNmUaJzARIGqDfQdgRjAzGgpCcVu428SAZNAvYKeEqQQVNsbsNsoCICpKdDwHY8sQ==",
+  "dgSpecHash": "Uq0yiVOUn+KDR+kvtThHIPuOhvmAAYd2Woceiz18y0FwqAiPUcVeZjk/iUbbInZJj6svlEhdvaEbc22s8lEILQ==",
   "success": true,
   "projectFilePath": "/home/braxtonknapp/Documents/MediatR_Demo/MediatR_Demo/BlazorMediatorDemo/BlazorMediatorDemo.csproj",
   "expectedPackageFiles": [
