@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/6q5H7XHP0o3TtKyK9EBG9-KM21h8eI6tgZM49zSj6YI=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/yGtyQjw3ufYHDV8TZDhtfWl-agTokqj1vG2uhdQBGl0=.hash",
       "Source": "\/home\/braxtonknapp\/Documents\/MediatR_Demo\/MediatR_Demo\/BlazorMediatorDemo\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BlazorMediatorDemo.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BlazorMediatorDemo.dll.br"
     },
@@ -271,7 +271,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/LAK_pJl4pjrZ6b0-mDOapytCGUZNJkJH9P5579IG2g4=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/-McqVgoq5QjELIPj8TSKGAVF8c7yO22PdFLqiYGIS8o=.hash",
       "Source": "\/home\/braxtonknapp\/Documents\/MediatR_Demo\/MediatR_Demo\/BlazorMediatorDemo\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/BlazorMediatorDemo.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/BlazorMediatorDemo.pdb.br"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/I71wZXgbHXvlQagXj9PNfRoXO6MfNsLyLzCnw-3RIXI=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/bP6Vi_pOqxTFzqXcRbhx5few9Xr3m5u4DElRxRfOJUI=.hash",
       "Source": "\/home\/braxtonknapp\/Documents\/MediatR_Demo\/MediatR_Demo\/BlazorMediatorDemo\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     }
