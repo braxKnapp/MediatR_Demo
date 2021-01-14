@@ -12,16 +12,16 @@
 else
 {
     <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var forecast in forecasts)
             {
                 <tr>
                     <td>@forecast.Date.ToShortDateString()</td>
@@ -32,4 +32,19 @@ else
             }
         </tbody>
     </table>
+    //MatBlazor version of above table
+    <MatTable Items="@forecasts" class="mat-elevation-z5">
+    <MatTableHeader>
+        <th>Date</th>
+        <th>Temp. (C)</th>
+        <th>Temp. (F)</th>
+        <th>Summary</th>
+    </MatTableHeader>
+    <MatTableRow>
+        <td>@context.Date.ToShortDateString()</td>
+        <td>@context.TemperatureC</td>
+        <td>@context.TemperatureF</td>
+        <td>@context.Summary</td>
+    </MatTableRow>
+</MatTable>
 }
