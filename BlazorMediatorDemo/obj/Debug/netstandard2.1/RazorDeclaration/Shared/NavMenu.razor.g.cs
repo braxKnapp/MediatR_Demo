@@ -83,6 +83,13 @@ using MediatR;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "/home/braxtonknapp/Documents/MediatR_Demo/MediatR_Demo/BlazorMediatorDemo/_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

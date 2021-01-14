@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using MediatR;
 using BlazorMediatorDemo.Core.Services;
+using MatBlazor;
 
 namespace BlazorMediatorDemo
 {
@@ -23,6 +24,7 @@ namespace BlazorMediatorDemo
             builder.Services.AddScoped<ICacheManager, CacheManager>();
             //This is how you add the MediatR service to the program
             builder.Services.AddMediatR(typeof(Program));
+            builder.Services.AddMatBlazor();
 
             await builder.Build().RunAsync();
         }
